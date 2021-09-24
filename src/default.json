@@ -1,0 +1,24 @@
+{
+  "start": "ConfirmName",
+  "steps": {
+    "ConfirmAddress": {
+      "edit": "EditAddress",
+      "different": "EditAddress",
+      "_next": "ChooseCoverageDate"
+    },
+    "ConfirmName": {
+      "edit": "EditName",
+      "addRoommates": "AddRoommates",
+      "_next": "ConfirmAddress"
+    },
+    "EditAddress": {
+      "_next": "ChooseCoverageDate"
+    },
+    "EditName": {
+      "_next": "ConfirmAddress"
+    },
+    "AddRoommates": {
+      "_next": "ConfirmAddress"
+    }
+  }
+}
