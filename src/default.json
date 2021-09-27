@@ -19,6 +19,27 @@
     },
     "AddRoommates": {
       "_next": "ConfirmAddress"
+    },
+    "ChooseCoverageDate": {
+      "_next": "RequireInsurance"
+    },
+    "RequireInsurance": {
+      "_next": "PurchaseOptions"
+    },
+    "PurchaseOptions": {
+      "_next": "ChooseContentLimit"
+    },
+    "ChooseContentLimit": {
+      "_next": "ChooseEarthquake"
+    },
+    "ChooseEarthquake": {
+      "_next": "ChoosePaymentOption"
+    },
+    "ChoosePaymentOption": {
+      "_next": "PaymentBlock"
+    },
+    "PaymentBlock": {
+      "_next": "Confirmation"
     }
   }
 }
